@@ -1,24 +1,30 @@
 <template>
-    <div class="about-container">
-        <section ref="textSection">
-            <p v-show="!showSecondParagraph" class="firstParagraph">
-                Olá, eu sou Caylon Solon, desenvolvedor web Jr com mais de três anos de experiência na área. Atualmente,
-                estou cursando o oitavo semestre de Engenharia da Computação, uma jornada que me permite aprofundar
-                ainda mais minha paixão por tecnologia e resolução de problemas. Desde cedo, fui fascinado pelo poder
-                transformador da tecnologia, e isso me levou a me especializar em desenvolvimento web, onde vejo a
-                oportunidade de facilitar e otimizar tarefas diárias através de soluções criativas e funcionais.
-            </p>
-            <p v-show="showSecondParagraph" class="secondParagraph">
-                Hoje, atuo como desenvolvedor na ASTTIC-UFPA em regime de estágio, onde aplico meus conhecimentos na
-                criação e manutenção de sistemas que impactam diretamente a rotina de diversas pessoas. Meu maior sonho
-                é, no futuro, liderar uma equipe de desenvolvedores, seja como gerente de projetos ou em outro cargo de
-                liderança, contribuindo com inovação e inspirando outros a seguirem o mesmo caminho de transformação
-                tecnológica.
-            </p>
-        </section>
-        <aside ref="imageAside">
-            <img src="../assets/ilustracao.webp" alt="Ilustração de desenvolvedor">
-        </aside>
+    <div class="parallax">
+        <div class="about-container d-flex flex-row justify-content-xl-between align-items-center">
+            <section ref="textSection">
+                <p v-show="!showSecondParagraph" class="firstParagraph">
+                    Olá, eu sou Caylon Solon, desenvolvedor web Jr com mais de três anos de experiência na área.
+                    Atualmente,
+                    estou cursando o oitavo semestre de Engenharia da Computação, uma jornada que me permite aprofundar
+                    ainda mais minha paixão por tecnologia e resolução de problemas. Desde cedo, fui fascinado pelo
+                    poder
+                    transformador da tecnologia, e isso me levou a me especializar em desenvolvimento web, onde vejo a
+                    oportunidade de facilitar e otimizar tarefas diárias através de soluções criativas e funcionais.
+                </p>
+                <p v-show="showSecondParagraph" class="secondParagraph">
+                    Hoje, atuo como desenvolvedor na ASTTIC-UFPA em regime de estágio, onde aplico meus conhecimentos na
+                    criação e manutenção de sistemas que impactam diretamente a rotina de diversas pessoas. Meu maior
+                    sonho
+                    é, no futuro, liderar uma equipe de desenvolvedores, seja como gerente de projetos ou em outro cargo
+                    de
+                    liderança, contribuindo com inovação e inspirando outros a seguirem o mesmo caminho de transformação
+                    tecnológica.
+                </p>
+            </section>
+            <aside ref="imageAside">
+                <img src="../assets/ilustracao.webp" alt="Ilustração de desenvolvedor">
+            </aside>
+        </div>
     </div>
 </template>
 
@@ -93,14 +99,18 @@ export default {
 </script>
 
 <style scoped>
+.parallax{
+    background-image: url(../assets/bg-gray.avif);
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .about-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ECEBEB;
     padding: 10%;
-    height: 100vh;
+    height: 93.5vh;
 }
 
 section {
@@ -115,6 +125,7 @@ aside {
 }
 
 section p {
+    color: #ecebee;
     font-weight: 400;
     font-size: medium;
     line-height: 1.8;
