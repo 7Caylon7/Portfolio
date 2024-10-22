@@ -13,6 +13,7 @@
             <li style="color: #161310;"><i class="mdi mdi-github"></i></li>
             <li style="color: #fc3f00;"><i class="mdi mdi-gitlab"></i></li>
             <li style="color: #d02090;"><i class="mdi mdi-database"></i></li>
+            <li style="color: #d06060;"><i class="mdi mdi-api"></i></li>
         </ul>
     </nav>
 </template>
