@@ -30,4 +30,6 @@ export default {
   text-decoration: none;
   list-style-type:none
 }
+
+
 </style>

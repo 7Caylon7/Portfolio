@@ -28,6 +28,7 @@ export default {
 
 
 <style scoped>
+
 .navbar{
   display: flex;
   justify-content: center;

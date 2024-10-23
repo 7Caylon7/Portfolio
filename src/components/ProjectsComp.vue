@@ -1,5 +1,5 @@
 <template>
-    <main class="parallax">
+    <main class="parallax" id="projects">
         <div class="container">
             <button>
                 <span> Projects </span>
@@ -7,29 +7,29 @@
         </div>
         <div class="container">
             <ul class="d-flex flex-row justify-content-around">
-                <li class="card" style="width: 25vw; background-color: #ECEBEB;">
+                <li class="card">
                     <img class="rounded" src="../assets/pj-filmes.png" alt="imagem de um site de filmes">
                     <ul class="d-flex flex-row justify-content-around" style="padding: 0; height: 5vh;">
-                        <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
-                        <li style="color: #746ab0; font-size: 200%;"><i class="mdi mdi-bootstrap"></i></li>
-                        <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
-                        <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
-                        <li style="color: #d06060; font-size: 200%;"><i class="mdi mdi-api"></i></li>
-                        <li style="font-size: 200%;">
+                        <li style="color: #00ffab; font-size: 150%;"><i class="mdi mdi-vuejs"></i></li>
+                        <li style="color: #746ab0; font-size: 150%;"><i class="mdi mdi-bootstrap"></i></li>
+                        <li style="color: #288ba8; font-size: 150%;"><i class="mdi mdi-language-css3"></i></li>
+                        <li style="color: #f2b138; font-size: 150%;"><i class="mdi mdi-language-javascript"></i></li>
+                        <li style="color: #d06060; font-size: 150%;"><i class="mdi mdi-api"></i></li>
+                        <li style="font-size: 150%;">
                             <a class="btn-go" href="https://movies-solon.vercel.app" target="_blank">
                                 <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
                             </a>
                         </li>
                     </ul>
                 </li>
-                <li class="card" style="width: 25vw; background-color: #ECEBEB;">
+                <li class="card">
                     <img class="rounded" src="../assets/pj-pkdx.png" alt="imagem de um site de filmes">
                     <ul class="d-flex flex-row justify-content-around" style="padding: 0; height: 5vh;">
-                        <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
-                        <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
-                        <li style="color: #006494; font-size: 200%;"><i class="mdi mdi-language-typescript"></i></li>
-                        <li style="color: #d06060; font-size: 200%;"><i class="mdi mdi-api"></i></li>
-                        <li style="font-size: 200%;">
+                        <li style="color: #00ffab; font-size: 150%;"><i class="mdi mdi-vuejs"></i></li>
+                        <li style="color: #288ba8; font-size: 150%;"><i class="mdi mdi-language-css3"></i></li>
+                        <li style="color: #006494; font-size: 150%;"><i class="mdi mdi-language-typescript"></i></li>
+                        <li style="color: #d06060; font-size: 150%;"><i class="mdi mdi-api"></i></li>
+                        <li style="font-size: 150%;">
                             <a class="btn-go" href="https://pokedex-7ca.vercel.app" target="_blank">
                                 <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
                             </a>
@@ -38,26 +38,26 @@
                 </li>
             </ul>
             <ul class="d-flex flex-row justify-content-around">
-                <li class="card" style="width: 25vw; background-color: #ECEBEB;">
+                <li class="card">
                     <img class="rounded" src="../assets/pj-barber.png" alt="imagem de um site de filmes">
                     <ul class="d-flex flex-row justify-content-around" style="padding: 0; height: 5vh;">
-                        <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
-                        <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
-                        <li style="font-size: 200%;">
+                        <li style="color: #00ffab; font-size: 150%;"><i class="mdi mdi-vuejs"></i></li>
+                        <li style="color: #288ba8; font-size: 150%;"><i class="mdi mdi-language-css3"></i></li>
+                        <li style="font-size: 150%;">
                             <a class="btn-go" href="https://jp-barbearia.vercel.app" target="_blank">
                                 <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
                             </a>
                         </li>
                     </ul>
                 </li>
-                <li class="card" style="width: 25vw; background-color: #ECEBEB;">
+                <li class="card">
                     <img class="rounded" src="../assets/pj-api.png" alt="imagem de um site de filmes">
                     <ul class="d-flex flex-row justify-content-around" style="padding: 0; height: 5vh;">
-                        <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
-                        <li style="color: #d06060; font-size: 200%;"><i class="mdi mdi-api"></i></li>
-                        <li style="font-size: 200%;">
-                            <a class="btn-go" href="https://filmes-api-sandy.vercel.app" target="_blank">
-                                <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
+                        <li style="color: #f2b138; font-size: 150%;"><i class="mdi mdi-language-javascript"></i></li>
+                        <li style="color: #d06060; font-size: 150%;"><i class="mdi mdi-api"></i></li>
+                        <li style="font-size: 150%;">
+                            <a href="https://filmes-api-sandy.vercel.app" target="_blank">
+                                <i class=" btn-go mdi mdi-arrow-top-right-bold-box-outline"></i>
                             </a>
                         </li>
                     </ul>
@@ -79,7 +79,6 @@ export default {
     background-image: url(../assets/bg-blue.jpg);
     height: 100vh;
     position: relative;
-    opacity: 0.65;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,9 +89,14 @@ export default {
     padding-top: 2%;
 }
 
+.card{
+    width: 32vw; 
+    background-color: #ECEBEB;
+}
+
 .btn-go{
     color: #161310;
-    transition: transform 0.3s ease;
+    transition: transform 1s ease;
 }
 
 .btn-go:hover{

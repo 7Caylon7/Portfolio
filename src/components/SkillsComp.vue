@@ -1,6 +1,6 @@
 <template>
-    <nav>
-        <h3 class="d-flex justify-content-center" style="font-family: 'Playfair Display', sans-serif;font-weight: 400;">Skills</h3>
+    <nav class="rounded">
+        <h3 class="d-flex justify-content-center" style="font-family: 'Courier New', Courier, monospace;font-weight: 600;">Hard Skills</h3>
         <ul class="d-flex flex-row justify-content-xl-around">
             <li style="color: #bf2626;"><i class="mdi mdi-language-html5"></i></li>
             <li style="color: #288ba8;"><i class="mdi mdi-language-css3"></i></li>

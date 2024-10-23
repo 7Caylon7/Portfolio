@@ -1,9 +1,9 @@
 <template>
-    <div class="parallax">
+    <div class="parallax" id="about">
         <div class="about-container d-flex flex-row justify-content-xl-between align-items-center">
             <section ref="textSection">
                 <p v-show="!showSecondParagraph" class="firstParagraph">
-                    Olá, eu sou Caylon Solon, desenvolvedor web Jr com mais de três anos de experiência na área.
+                    Olá, eu sou Caylon Solon, desenvolvedor web com mais de três anos de experiência na área.
                     Atualmente,
                     estou cursando o oitavo semestre de Engenharia da Computação, uma jornada que me permite aprofundar
                     ainda mais minha paixão por tecnologia e resolução de problemas. Desde cedo, fui fascinado pelo
