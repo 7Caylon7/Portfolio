@@ -76,7 +76,7 @@ export default {
 
 <style scoped>
 .parallax {
-    background-image: url(../assets/bg-blue.jpg);
+    background-image: url(../assets/developer.gif);
     height: 100vh;
     position: relative;
     background-attachment: fixed;
