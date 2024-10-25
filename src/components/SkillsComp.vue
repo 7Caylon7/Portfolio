@@ -1,20 +1,36 @@
 <template>
     <nav class="rounded">
         <h3 class="d-flex justify-content-center" style="font-family: 'Courier New', Courier, monospace;font-weight: 600;">Hard Skills</h3>
-        <ul class="d-flex flex-row justify-content-xl-around">
-            <li style="color: #bf2626;"><i class="mdi mdi-language-html5"></i></li>
-            <li style="color: #288ba8;"><i class="mdi mdi-language-css3"></i></li>
-            <li style="color: #f2b138;"><i class="mdi mdi-language-javascript"></i></li>
-            <li style="color: #746ab0;"><i class="mdi mdi-language-php"></i></li>
-            <li class="python-icon"><i class="mdi mdi-language-python"></i></li>
-            <li style="color: #00ffab;"><i class="mdi mdi-vuejs"></i></li>
-            <li style="color: #746ab0;"><i class="mdi mdi-bootstrap"></i></li>
-            <li style="color: #00ffab;"><i class="mdi mdi-bulma"></i></li>
-            <li style="color: #161310;"><i class="mdi mdi-github"></i></li>
-            <li style="color: #fc3f00;"><i class="mdi mdi-gitlab"></i></li>
-            <li style="color: #d02090;"><i class="mdi mdi-database"></i></li>
-            <li style="color: #d06060;"><i class="mdi mdi-api"></i></li>
-        </ul>
+        <div class="skills">
+            <div class="skills-slide">
+                <i style="color: #bf2626;" class="mdi mdi-language-html5"></i>
+                <i style="color: #288ba8;" class="mdi mdi-language-css3"></i>
+                <i style="color: #f2b138;" class="mdi mdi-language-javascript"></i>
+                <i style="color: #746ab0;" class="mdi mdi-language-php"></i>
+                <i class="mdi mdi-language-python python-icon"></i>
+                <i style="color: #00ffab;" class="mdi mdi-vuejs"></i>
+                <i style="color: #746ab0;" class="mdi mdi-bootstrap"></i>
+                <i style="color: #00ffab;" class="mdi mdi-bulma"></i>
+                <i style="color: #161310;" class="mdi mdi-github"></i>
+                <i style="color: #fc3f00;" class="mdi mdi-gitlab"></i>
+                <i style="color: #d02090;" class="mdi mdi-database"></i>
+                <i style="color: #d06060;" class="mdi mdi-api"></i>
+            </div>
+            <div class="skills-slide">
+                <i style="color: #bf2626;" class="mdi mdi-language-html5"></i>
+                <i style="color: #288ba8;" class="mdi mdi-language-css3"></i>
+                <i style="color: #f2b138;" class="mdi mdi-language-javascript"></i>
+                <i style="color: #746ab0;" class="mdi mdi-language-php"></i>
+                <i class="mdi mdi-language-python python-icon"></i>
+                <i style="color: #00ffab;" class="mdi mdi-vuejs"></i>
+                <i style="color: #746ab0;" class="mdi mdi-bootstrap"></i>
+                <i style="color: #00ffab;" class="mdi mdi-bulma"></i>
+                <i style="color: #161310;" class="mdi mdi-github"></i>
+                <i style="color: #fc3f00;" class="mdi mdi-gitlab"></i>
+                <i style="color: #d02090;" class="mdi mdi-database"></i>
+                <i style="color: #d06060;" class="mdi mdi-api"></i>
+            </div>
+        </div>
     </nav>
 </template>
 
@@ -30,12 +46,9 @@ nav{
     background-color: #ECEBEB;   
 }
 
-li{
-    font-size: 350%;
-}
-
-ul{
-    margin-bottom: 0;
+i{
+    font-size: 400%;
+    margin: 0 5vw;
 }
 
 .python-icon{
@@ -44,4 +57,23 @@ ul{
     -webkit-text-fill-color: transparent;
 }
 
+.skills{
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.skills-slide{
+    display: inline-block;
+    animation: 15s slide infinite linear;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
 </style>
