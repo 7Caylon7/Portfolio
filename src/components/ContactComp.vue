@@ -13,15 +13,15 @@
                 <div class="links">
                     <div class="up">
                         <button class="card1">
-                            <i class="mdi mdi-instagram instagram"></i>
+                            <a href="https://www.instragram.com/ca_ylon/profilecard/?igsh=YnptaGp3MXFhZmdj" target="_blank"><i class="mdi mdi-instagram instagram"></i></a>
                         </button>
                         <button class="card2">
-                            <i class="mdi mdi-linkedin twitter"></i>
+                            <a href="https://www.linkedin.com/in/caylon-solon-monte-costa" target="_blank"><i class="mdi mdi-linkedin twitter"></i></a>
                         </button>
                     </div>
                     <div class="down">
                         <button class="card3">
-                            <i class="mdi mdi-github github"></i>
+                            <a href="https://github.com/7Caylon7" target="_blank"><i class="mdi mdi-github github"></i></a>
                         </button>
                         <button class="card4">
                             <i class="mdi mdi-whatsapp discord"></i>
@@ -217,6 +217,7 @@ footer{
     margin-top: -.6em;
     margin-left: .5em;
     font-size: 200%;
+    color: #000;
 }
 
 .card4 {
