@@ -1,5 +1,5 @@
 <template>
-    <nav class="rounded">
+    <div class="background">
         <h3 class="d-flex justify-content-center" style="font-family: 'Courier New', Courier, monospace;font-weight: 600;">Hard Skills</h3>
         <div class="skills">
             <div class="skills-slide">
@@ -31,7 +31,7 @@
                 <i style="color: #d06060;" class="mdi mdi-api"></i>
             </div>
         </div>
-    </nav>
+    </div>
 </template>
 
 <script>
@@ -42,8 +42,8 @@ export default {
 
 
 <style scoped>
-nav{
-    background-color: #ECEBEB;   
+.background{
+    background-color: #ECEBEB;
 }
 
 i{

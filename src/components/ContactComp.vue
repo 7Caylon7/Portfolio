@@ -1,27 +1,37 @@
 <template>
     <div class="parallax" id="contact">
-        <div class="">
-            <div class="main">
-                <div class="up">
-                    <button class="card1">
-                        <i class="mdi mdi-instagram instagram"></i>
+        <div class="container">
+            <div class="main d-flex flex-direction-row">
+                <form class="form">
+                    <input class="form-control" type="text" placeholder="E-mail">
+                    <textarea class="form-control" rows="9" name="description" id="description" placeholder="Descreva o seu projeto"></textarea>
+                    <button class="btn-enviar">
+                        <span class="icon mdi mdi-email email"></span>
+                        <p class="text">Enviar</p>
                     </button>
-                    <button class="card2">
-                        <i class="mdi mdi-linkedin twitter"></i>
-                    </button>
-                </div>
-                <div class="down">
-                    <button class="card3">
-                        <i class="mdi mdi-github github"></i>
-                    </button>
-                    <button class="card4">
-                        <i class="mdi mdi-whatsapp discord"></i>
-                    </button>
+                </form>
+                <div class="links">
+                    <div class="up">
+                        <button class="card1">
+                            <i class="mdi mdi-instagram instagram"></i>
+                        </button>
+                        <button class="card2">
+                            <i class="mdi mdi-linkedin twitter"></i>
+                        </button>
+                    </div>
+                    <div class="down">
+                        <button class="card3">
+                            <i class="mdi mdi-github github"></i>
+                        </button>
+                        <button class="card4">
+                            <i class="mdi mdi-whatsapp discord"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="container">
+            <div>
                 <footer class="d-flex flex-wrap justify-content-between align-items-center- py-3 my-4 border-top">
-                    <p class="col-md-4 mb-0 text-body-secondary">
+                    <p class="col-md-4 mb-0">
                         @ 2024 Caylon Solon
                     </p>
                     <h3 class="nav"><i class="mdi mdi-chevron-left"></i>Solon/<i class="mdi mdi-chevron-right"></i></h3>
@@ -48,18 +58,93 @@ export default {
     height: 100vh;
 }
 
-.contact-container {
-    padding: 10%;
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 87vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35vw;
+    height: 50vh;
+    gap: 2vh;
+}
+
+.btn-enviar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 7vh;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    background-color: rgb(12, 12, 12);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    color: #ecebee;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 6vh;
+    background: linear-gradient(to bottom, rgb(83, 83, 83), rgb(43, 38, 48));
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: 0.3s;
+    font-size: 3vh;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60px;
+    z-index: 1;
+    transition-duration: 0.3s;
+    font-size: 1.04em;
+}
+
+.btn-enviar:hover .icon{
+    width: 100vw;
     height: 100vh;
+    transition-duration: 0.3s;
+}
+
+.btn-enviar:hover .text {
+  transform: translate(10px);
+  width: 0;
+  font-size: 0;
+  transition-duration: 0.3s;
+}
+
+.btn-enviar:active {
+  transform: scale(1.25);
+  transition-duration: 0.3s;
 }
 
 
-.main {
+footer{
+    color: #ecebee;
+}
+
+.links {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    margin-left: 80vw;
-    padding-top: 34.5vh;
 }
 
 .up {
@@ -192,4 +277,5 @@ export default {
 .card4:hover .discord {
     fill: white;
 }
+
 </style>
