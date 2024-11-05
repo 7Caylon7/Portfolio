@@ -110,7 +110,7 @@ export default {
 
 .about-container {
     padding: 10%;
-    height: 93.5vh;
+    height: 94vh;
 }
 
 section {

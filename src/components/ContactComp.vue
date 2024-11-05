@@ -2,13 +2,19 @@
     <div class="parallax" id="contact">
         <div class="container">
             <div class="main d-flex flex-direction-row">
-                <form class="form">
-                    <input class="form-control" type="text" placeholder="E-mail">
-                    <textarea class="form-control" rows="9" name="description" id="description" placeholder="Descreva o seu projeto"></textarea>
-                    <button class="btn-enviar">
+                <form class="form" action="https://formsubmit.io/send/caylon.solon23@gmail.com" method="POST">
+                    <h3>Me conte sobre o problema à ser resolvido!!</h3>
+                    <input class="form-control" type="text" placeholder="Nome" required>
+                    <input class="form-control" type="text" placeholder="E-mail" required>
+                    <textarea class="form-control" rows="8" name="description" id="description" placeholder="Descreva o seu projeto" required></textarea>
+                    <button class="btn-enviar" type="submit">
                         <span class="icon mdi mdi-email email"></span>
                         <p class="text">Enviar</p>
                     </button>
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Novo Contato!">
+                    <input type="text" name="_honey" style="display:none">
                 </form>
                 <div class="links">
                     <div class="up">
@@ -116,6 +122,7 @@ export default {
     z-index: 1;
     transition-duration: 0.3s;
     font-size: 1.04em;
+    margin-top: 1.2vh;
 }
 
 .btn-enviar:hover .icon{
