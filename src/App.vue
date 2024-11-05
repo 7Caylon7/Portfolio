@@ -41,4 +41,32 @@ html{
   scroll-behavior: smooth;
 }
 
+
+/* Estilos para o Chrome, Safari e Edge */
+::-webkit-scrollbar {
+  width: .6vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #787676;
+}
+
+/* Estilos para o Firefox */
+scrollbar {
+  width: .6vw;
+}
+
+scrollbar-thumb {
+  background-color: #000;
+  border-radius: 10px;
+}
+
+scrollbar-track {
+  background: #787676;
+}
 </style>
