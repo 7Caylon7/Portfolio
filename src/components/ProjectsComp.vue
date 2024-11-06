@@ -6,8 +6,8 @@
             </button>
         </div>
         <div class="container">
-            <ul class="d-flex flex-row justify-content-around">
-                <li class="card">
+            <ul class="d-flex flex-row justify-content-around gap-5">
+                <li class="card bg-light">
                     <img class="rounded" src="../assets/pj-filmes.png" alt="imagem de um site de filmes">
                     <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
                         <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
@@ -22,7 +22,50 @@
                         </li>
                     </ul>
                 </li>
-                <li class="card">
+
+                <li class="card bg-light">
+                    <img class="rounded" src="../assets/novals.png" alt="imagem de um site de filmes">
+                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
+                        <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
+                        <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
+                        <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
+                        <li class="rotate-item">
+                            <a class="btn-go" href="https://dashboard-gilt-rho-16.vercel.app/" target="_blank">
+                                <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="d-flex flex-row justify-content-around gap-5">
+                <li class="card bg-light">
+                    <img class="rounded" src="../assets/pj-barber.png" alt="imagem de um site de filmes">
+                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
+                        <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
+                        <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
+                        <li class="rotate-item">
+                            <a class="btn-go" href="https://jp-barbearia.vercel.app" target="_blank">
+                                <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="card bg-light">
+                    <img class="rounded" src="../assets/pj-api.png" alt="imagem de um site de filmes">
+                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
+                        <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
+                        <li style="color: #d06060; font-size: 200%;"><i class="mdi mdi-api"></i></li>
+                        <li class="rotate-item">
+                            <a class="btn-go" href="https://filmes-api-sandy.vercel.app" target="_blank">
+                                <i class=" mdi mdi-arrow-top-right-bold-box-outline"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="d-flex flex-row justify-content-around gap-5">
+                <li class="card bg-light">
                     <img class="rounded" src="../assets/pj-pkdx.png" alt="imagem de um site de filmes">
                     <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
                         <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
@@ -36,27 +79,15 @@
                         </li>
                     </ul>
                 </li>
-            </ul>
-            <ul class="d-flex flex-row justify-content-around">
-                <li class="card">
-                    <img class="rounded" src="../assets/pj-barber.png" alt="imagem de um site de filmes">
-                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
-                        <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
-                        <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
-                        <li class="rotate-item">
-                            <a class="btn-go" href="https://jp-barbearia.vercel.app" target="_blank">
-                                <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="card">
-                    <img class="rounded" src="../assets/pj-api.png" alt="imagem de um site de filmes">
+                
+                <li class="card bg-light">
+                    <img class="rounded" src="../assets/game.png" alt="imagem de um site de filmes">
                     <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
                         <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
-                        <li style="color: #d06060; font-size: 200%;"><i class="mdi mdi-api"></i></li>
+                        <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
+                        <i style="color: #bf2626; font-size: 200%;" class="mdi mdi-language-html5"></i>
                         <li class="rotate-item">
-                            <a class="btn-go" href="https://filmes-api-sandy.vercel.app" target="_blank">
+                            <a class="btn-go" href="https://horror-scape-game.vercel.app/" target="_blank">
                                 <i class=" mdi mdi-arrow-top-right-bold-box-outline"></i>
                             </a>
                         </li>
@@ -76,13 +107,14 @@ export default {
 
 <style scoped>
 .parallax {
-    background-image: url(../assets/paralax-background-3.jpg);
-    height: 100vh;
+    background-image: url(../assets/projects-gray.png);
+    height: 100%;
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 4vh;
 }
 
 .container {
@@ -90,8 +122,7 @@ export default {
 }
 
 .card{
-    width: 32vw; 
-    background-color: #ECEBEB;
+    width: 32vw;
 }
 
 .btn-go{
