@@ -67,4 +67,8 @@ h3{
     margin-left: 2vw;
   }
 }
+
+/* @media (max-width: 599px){
+
+} */
 </style>
