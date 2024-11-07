@@ -52,40 +52,19 @@ h3{
   color: #000;
 }
 
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  h3 {
-    position: relative;
+@media (max-width: 599px){
+  .navbar>h3{
+    font-size: 2.5vh;
     left: 0;
-    margin-bottom: 10px;
   }
 
-  .nav {
-    flex-direction: column;
-    gap: 10px;
+  .navbar>ul{
+    font-size: 1.5vh;
+    margin-left: 30vw;
   }
 
-  .nav-link {
-    font-size: 16px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .navbar {
-    padding: 5px 10px;
-  }
-
-  .nav-link {
-    font-size: 14px;
-  }
-
-  h3 {
-    font-size: 18px;
+  .nav .nav-underline{
+    margin-left: 2vw;
   }
 }
 </style>

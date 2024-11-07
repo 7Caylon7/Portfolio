@@ -140,4 +140,20 @@ aside img {
     margin-left: 25%;
     border-radius: 50%;
 }
+
+@media (max-width: 599px){
+    .about-container{
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    section p{
+        font-size: 2vh;
+    }
+
+    aside img{
+        max-width: 70vw;
+        margin-left: 0;
+    }
+}
 </style>

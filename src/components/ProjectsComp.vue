@@ -6,7 +6,7 @@
             </button>
         </div>
         <div class="container">
-            <ul class="d-flex flex-row justify-content-around gap-5">
+            <ul class="card-response d-flex flex-row justify-content-around gap-5">
                 <li class="card bg-light">
                     <img class="rounded" src="../assets/pj-filmes.png" alt="imagem de um site de filmes">
                     <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
@@ -37,7 +37,7 @@
                     </ul>
                 </li>
             </ul>
-            <ul class="d-flex flex-row justify-content-around gap-5">
+            <ul class="card-response d-flex flex-row justify-content-around gap-5">
                 <li class="card bg-light">
                     <img class="rounded" src="../assets/pj-barber.png" alt="imagem de um site de filmes">
                     <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
@@ -64,7 +64,7 @@
                 </li>
             </ul>
 
-            <ul class="d-flex flex-row justify-content-around gap-5">
+            <ul class="card-response d-flex flex-row justify-content-around gap-5">
                 <li class="card bg-light">
                     <img class="rounded" src="../assets/pj-pkdx.png" alt="imagem de um site de filmes">
                     <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
@@ -129,16 +129,15 @@ export default {
     color: #161310;
 }
 
-/* Animação para o último li */
+
 .rotate-item {
   font-size: 250%;
-  display: inline-block; /* Garante que o li pode ser manipulado com transform */
-  transition: transform 0.5s ease-in-out; /* Suaviza o efeito de rotação */
+  display: inline-block; 
+  transition: transform 0.5s ease-in-out; 
 }
 
-/* Quando o usuário passar o mouse sobre o último li */
 .rotate-item:hover {
-  transform: rotate(360deg); /* Gira o item 360 graus */
+  transform: rotate(360deg); 
 }
 
 
@@ -178,5 +177,16 @@ button span:hover {
 
 button span:not(hover) {
     transition: all 1s;
+}
+
+@media (max-width: 599px){
+    .container>ul{
+        flex-direction: column !important;
+        gap: 2vh !important;
+    }
+
+    .card{
+        width: 80vw;
+    }
 }
 </style>

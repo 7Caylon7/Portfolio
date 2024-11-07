@@ -327,4 +327,177 @@ footer > p {
 .card4:hover .discord {
   fill: white;
 }
+
+@media (max-width: 599px) {
+  .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65vw;
+  height: 50vh;
+  gap: 2vh;
+}
+
+h3{
+  font-size: large;
+}
+
+textarea{
+  height: 6vh;
+}
+
+.btn-enviar{
+  width: 100%;
+}
+
+.icon{
+  width: 10vw;
+}
+
+.text{
+  margin-top: 2.2vh;  
+}
+
+.instagram {
+  left: 7vw;
+  top: 1.5vh;
+}
+
+.twitter {
+  left: 4vw;
+  top: 1.5vh;
+}
+
+.github {
+  left: 7vw;
+  top: .6vh;
+}
+
+.discord {
+  left: 4vw;
+  top: .6vh;
+}
+
+}
+
+
+@media (min-width: 600px) and (max-width: 899px) {
+h3{
+  font-size: large;
+}
+
+textarea{
+  height: 17vh;
+}
+
+.btn-enviar{
+  width: 100%;
+}
+
+.icon{
+  width: 10vw;
+}
+
+.text{
+  margin-top: 2.2vh;  
+}
+
+.instagram {
+  left: 4vw;
+  top: 1.5vh;
+}
+
+.twitter {
+  left: 1.2vw;
+  top: 1.5vh;
+}
+
+.github {
+  left: 4vw;
+  top: .6vh;
+}
+
+.discord {
+  left: 1.2vw;
+  top: .6vh;
+}
+}
+
+
+@media (min-width: 900px) and (max-width: 1199px) {
+
+textarea{
+  height: 10vh;
+}
+
+.btn-enviar{
+  width: 100%;
+}
+
+.icon{
+  width: 10vw;
+}
+
+.text{
+  margin-top: 1vh;  
+}
+
+.instagram {
+  left: 3vw;
+  top: 1.5vh;
+}
+
+.twitter {
+  left: 1.2vw;
+  top: 1.5vh;
+}
+
+.github {
+  left: 3vw;
+  top: .6vh;
+}
+
+.discord {
+  left: 1.2vw;
+  top: .6vh;
+}
+
+footer{
+  margin: 0;
+  padding: 0;
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1599px){
+  .form {
+  height: 60vh;
+  gap: 2vh;
+}
+
+.instagram {
+  left: 2vw;
+  top: 1.5vh;
+}
+
+.twitter {
+  left: 1.2vw;
+  top: 1.5vh;
+}
+
+.github {
+  left: 2vw;
+  top: .6vh;
+}
+
+.discord {
+  left: 1.2vw;
+  top: .6vh;
+}
+}
 </style>
