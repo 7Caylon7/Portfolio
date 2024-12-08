@@ -4,20 +4,21 @@
       <div class="main d-flex flex-direction-row">
         <form
           class="form"
-          action="https://formsubmit.io/send/caylon.solon23@gmail.com"
+          action="https://formsubmit.co/caylonsolon@hotmail.com"
           method="POST"
         >
           <h3>Me conte sobre o problema à ser resolvido!!</h3>
           <input class="form-control" type="text" placeholder="Nome" required />
           <input
             class="form-control"
-            type="text"
+            type="email"
+            name="email"
             placeholder="E-mail"
             required
           />
           <textarea
             class="form-control"
-            rows="8"
+            rows="6"
             name="description"
             id="description"
             placeholder="Descreva o seu projeto"
@@ -27,6 +28,8 @@
             <span class="icon mdi mdi-email email"></span>
             <p class="text">Enviar</p>
           </button>
+
+          <input type="hidden" name="_next" value="https://portfolio-solon.vercel.app">
 
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_subject" value="Novo Contato!" />
