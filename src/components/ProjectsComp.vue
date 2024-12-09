@@ -24,7 +24,7 @@
                 </li>
 
                 <li class="card bg-light">
-                    <img class="rounded" src="../assets/novals.png" alt="imagem de um site de filmes">
+                    <img class="rounded" src="../assets/novals.png" alt="imagem da página de login de um sistema">
                     <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
                         <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
                         <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
@@ -39,7 +39,7 @@
             </ul>
             <ul class="card-response d-flex flex-row justify-content-around gap-5">
                 <li class="card bg-light">
-                    <img class="rounded" src="../assets/pj-barber.png" alt="imagem de um site de filmes">
+                    <img class="rounded" src="../assets/pj-barber.png" alt="imagem da página de uma barbearia">
                     <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
                         <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
                         <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
@@ -50,8 +50,40 @@
                         </li>
                     </ul>
                 </li>
+
                 <li class="card bg-light">
-                    <img class="rounded" src="../assets/pj-api.png" alt="imagem de um site de filmes">
+                        <img class="rounded" src="../assets/pj-mustang.png" alt="imagem de uma página da mustang">
+                        <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
+                            <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
+                            <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
+                            <i style="color: #bf2626; font-size: 200%;" class="mdi mdi-language-html5"></i>
+                            <li class="rotate-item">
+                                <a class="btn-go" href="https://mustang-landing-page.vercel.app/" target="_blank">
+                                    <i class=" mdi mdi-arrow-top-right-bold-box-outline"></i>
+                                </a>
+                            </li>
+                        </ul>
+                </li>
+            </ul>
+
+            <ul class="card-response d-flex flex-row justify-content-around gap-5">
+                <li class="card bg-light">
+                    <img class="rounded" src="../assets/pj-pkdx.png" alt="imagem de um site que exibe uma pokedex">
+                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
+                        <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
+                        <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
+                        <li style="color: #006494; font-size: 200%;"><i class="mdi mdi-language-typescript"></i></li>
+                        <li style="color: #d06060; font-size: 200%;"><i class="mdi mdi-api"></i></li>
+                        <li class="rotate-item">
+                            <a class="btn-go" href="https://pokedex-7ca.vercel.app" target="_blank">
+                                <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="card bg-light">
+                    <img class="rounded" src="../assets/pj-api.png" alt="imagem de um página que exibe o endpoint de uma api">
                     <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
                         <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
                         <li style="color: #d06060; font-size: 200%;"><i class="mdi mdi-api"></i></li>
@@ -66,22 +98,7 @@
 
             <ul class="card-response d-flex flex-row justify-content-around gap-5">
                 <li class="card bg-light">
-                    <img class="rounded" src="../assets/pj-pkdx.png" alt="imagem de um site de filmes">
-                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
-                        <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
-                        <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
-                        <li style="color: #006494; font-size: 200%;"><i class="mdi mdi-language-typescript"></i></li>
-                        <li style="color: #d06060; font-size: 200%;"><i class="mdi mdi-api"></i></li>
-                        <li class="rotate-item">
-                            <a class="btn-go" href="https://pokedex-7ca.vercel.app" target="_blank">
-                                <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                
-                <li class="card bg-light">
-                    <img class="rounded" src="../assets/game.png" alt="imagem de um site de filmes">
+                    <img class="rounded" src="../assets/game.png" alt="imagem do site de um jogo">
                     <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
                         <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
                         <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
