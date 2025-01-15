@@ -1,5 +1,5 @@
 <template>
-    <main class="parallax" id="projects">
+    <main class="text-bg-secondary" id="projects">
         <div class="container">
             <button>
                 <span> Projects </span>
@@ -9,7 +9,8 @@
             <ul class="card-response d-flex flex-row justify-content-around gap-5">
                 <li class="card bg-light">
                     <img class="rounded" src="../assets/pj-filmes.png" alt="imagem de um site de filmes">
-                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
+                    <ul class="d-flex flex-row justify-content-around align-items-center"
+                        style="padding: 0; height: 5vh;">
                         <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
                         <li style="color: #746ab0; font-size: 200%;"><i class="mdi mdi-bootstrap"></i></li>
                         <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
@@ -25,7 +26,8 @@
 
                 <li class="card bg-light">
                     <img class="rounded" src="../assets/novals.png" alt="imagem de um site de filmes">
-                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
+                    <ul class="d-flex flex-row justify-content-around align-items-center"
+                        style="padding: 0; height: 5vh;">
                         <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
                         <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
                         <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
@@ -40,7 +42,8 @@
             <ul class="card-response d-flex flex-row justify-content-around gap-5">
                 <li class="card bg-light">
                     <img class="rounded" src="../assets/pj-barber.png" alt="imagem de um site de filmes">
-                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
+                    <ul class="d-flex flex-row justify-content-around align-items-center"
+                        style="padding: 0; height: 5vh;">
                         <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
                         <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
                         <li class="rotate-item">
@@ -52,7 +55,8 @@
                 </li>
                 <li class="card bg-light">
                     <img class="rounded" src="../assets/pj-api.png" alt="imagem de um site de filmes">
-                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
+                    <ul class="d-flex flex-row justify-content-around align-items-center"
+                        style="padding: 0; height: 5vh;">
                         <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
                         <li style="color: #d06060; font-size: 200%;"><i class="mdi mdi-api"></i></li>
                         <li class="rotate-item">
@@ -67,7 +71,8 @@
             <ul class="card-response d-flex flex-row justify-content-around gap-5">
                 <li class="card bg-light">
                     <img class="rounded" src="../assets/pj-pkdx.png" alt="imagem de um site de filmes">
-                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
+                    <ul class="d-flex flex-row justify-content-around align-items-center"
+                        style="padding: 0; height: 5vh;">
                         <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
                         <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
                         <li style="color: #006494; font-size: 200%;"><i class="mdi mdi-language-typescript"></i></li>
@@ -79,10 +84,11 @@
                         </li>
                     </ul>
                 </li>
-                
+
                 <li class="card bg-light">
                     <img class="rounded" src="../assets/game.png" alt="imagem de um site de filmes">
-                    <ul class="d-flex flex-row justify-content-around align-items-center" style="padding: 0; height: 5vh;">
+                    <ul class="d-flex flex-row justify-content-around align-items-center"
+                        style="padding: 0; height: 5vh;">
                         <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
                         <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
                         <i style="color: #bf2626; font-size: 200%;" class="mdi mdi-language-html5"></i>
@@ -106,38 +112,36 @@ export default {
 
 
 <style scoped>
-.parallax {
-    background-image: url(../assets/projects-gray.png);
-    height: 100%;
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+main {
     padding-bottom: 4vh;
 }
 
 .container {
     padding-top: 2%;
+    text-align: center;
 }
 
-.card{
+.card-response{
+    padding: 0;
+}
+
+.card {
     width: 32vw;
 }
 
-.btn-go{
+.btn-go {
     color: #161310;
 }
 
 
 .rotate-item {
-  font-size: 250%;
-  display: inline-block; 
-  transition: transform 0.5s ease-in-out; 
+    font-size: 250%;
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
 }
 
 .rotate-item:hover {
-  transform: rotate(360deg); 
+    transform: rotate(360deg);
 }
 
 
@@ -179,13 +183,13 @@ button span:not(hover) {
     transition: all 1s;
 }
 
-@media (max-width: 599px){
-    .container>ul{
+@media (max-width: 599px) {
+    .container>ul {
         flex-direction: column !important;
         gap: 2vh !important;
     }
 
-    .card{
+    .card {
         width: 80vw;
     }
 }
