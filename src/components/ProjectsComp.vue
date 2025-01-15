@@ -15,7 +15,7 @@
                         <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
                         <i style="color: #bf2626; font-size: 200%;" class="mdi mdi-language-html5"></i>
                         <li class="rotate-item">
-                            <a class="btn-go" href="https://movies-solon.vercel.app" target="_blank">
+                            <a class="btn-go" href="https://mustang-landing-page.vercel.app" target="_blank">
                                 <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
                             </a>
                         </li>
