@@ -8,14 +8,12 @@
         <div class="container">
             <ul class="card-response d-flex flex-row justify-content-around gap-5">
                 <li class="card bg-light">
-                    <img class="rounded" src="../assets/pj-filmes.png" alt="imagem de um site de filmes">
+                    <img class="rounded" src="../assets/pj-mustang.png" alt="imagem de um site de filmes">
                     <ul class="d-flex flex-row justify-content-around align-items-center"
                         style="padding: 0; height: 5vh;">
-                        <li style="color: #00ffab; font-size: 200%;"><i class="mdi mdi-vuejs"></i></li>
-                        <li style="color: #746ab0; font-size: 200%;"><i class="mdi mdi-bootstrap"></i></li>
-                        <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
                         <li style="color: #f2b138; font-size: 200%;"><i class="mdi mdi-language-javascript"></i></li>
-                        <li style="color: #d06060; font-size: 200%;"><i class="mdi mdi-api"></i></li>
+                        <li style="color: #288ba8; font-size: 200%;"><i class="mdi mdi-language-css3"></i></li>
+                        <i style="color: #bf2626; font-size: 200%;" class="mdi mdi-language-html5"></i>
                         <li class="rotate-item">
                             <a class="btn-go" href="https://movies-solon.vercel.app" target="_blank">
                                 <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
